@@ -123,11 +123,28 @@
   transition: background 150ms;
 }
 
+.quicker-search-clear {
+  display: grid;
+  flex: 0 0 36px;
+  place-items: center;
+  color: #475569;
+  background: #fff;
+  border: 0;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.quicker-search-clear:hover {
+  color: #0f172a;
+  background: #f1f5f9;
+}
+
 .quicker-search-submit:hover {
   background: #f59e0b;
 }
 
 .quicker-search-submit:focus-visible,
+.quicker-search-clear:focus-visible,
 .quicker-account:focus-visible,
 .quicker-orders:focus-visible,
 .quicker-cart:focus-visible,
@@ -153,6 +170,10 @@
   cursor: pointer;
 }
 
+.quicker-orders {
+  text-decoration: none;
+}
+
 .quicker-account:hover,
 .quicker-orders:hover,
 .quicker-cart:hover {
@@ -165,6 +186,149 @@
 
 .quicker-account-icon {
   display: none;
+}
+
+.quicker-signin-backdrop {
+  position: fixed;
+  z-index: 30;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(15 23 42 / 58%);
+}
+
+.quicker-signin-dialog {
+  position: relative;
+  width: min(100%, 420px);
+  padding: 30px;
+  color: #1e293b;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgb(15 23 42 / 28%);
+}
+
+.quicker-signin-dialog h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.quicker-signin-dialog > p {
+  margin: 8px 0 22px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.quicker-signin-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 34px;
+  height: 34px;
+  color: #475569;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.quicker-signin-close:hover {
+  background: #f1f5f9;
+}
+
+.quicker-signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.quicker-signin-form label {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.quicker-signin-form input {
+  min-height: 42px;
+  padding: 9px 11px;
+  color: #0f172a;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.quicker-signin-form input:disabled {
+  background: #f8fafc;
+}
+
+.quicker-signin-submit {
+  min-height: 42px;
+  margin-top: 8px;
+  color: #0f172a;
+  background: #fbbf24;
+  border: 1px solid #f59e0b;
+  border-radius: 7px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quicker-signin-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.quicker-signin-submit:hover {
+  background: #f59e0b;
+}
+
+.quicker-signin-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quicker-signin-links button,
+.quicker-signin-back {
+  padding: 4px 0;
+  color: #1d4ed8;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.quicker-signin-links button:hover,
+.quicker-signin-back:hover {
+  text-decoration: underline;
+}
+
+.quicker-signin-setup {
+  padding: 12px;
+  color: #7c2d12;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.quicker-signin-setup code {
+  font-size: 12px;
+}
+
+.quicker-signin-message {
+  min-height: 18px;
+  margin: 4px 0 0;
+  color: #9a3412;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .quicker-action-copy,
@@ -247,6 +411,11 @@
 .quicker-all-button:hover,
 .quicker-subnav-links a:hover {
   border-color: rgb(255 255 255 / 55%);
+}
+
+.quicker-subnav-links a.active {
+  color: #fff;
+  background: rgb(255 255 255 / 12%);
 }
 
 .quicker-subnav-links {
