@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
-import ProductList, { PRODUCT } from "./ProductList";
+import ProductList, { getProductUrl, PRODUCT } from "./ProductList";
 import { ALL_DEPARTMENTS } from "./categories";
 import StorePages from "./StorePages";
 import "./App.css";
@@ -175,7 +175,7 @@ export default function App() {
                     {cartEntries.map(({ product }) => (
                       <a
                         className="shopping-cart-buy"
-                        href={product.url}
+                        href={getProductUrl(product)}
                         key={product.id}
                         target="_blank"
                         rel="sponsored noopener noreferrer"

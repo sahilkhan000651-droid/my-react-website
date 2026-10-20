@@ -537,6 +537,13 @@ const CATALOG_BATCH_PRODUCTS = [
 
 export const PRODUCTS = [PRODUCT, ...ADDITIONAL_PRODUCTS, ...CATALOG_BATCH_PRODUCTS];
 
+export function getProductUrl(product) {
+  const url = new URL("https://www.amazon.in/s");
+  url.searchParams.set("k", product.name);
+  url.searchParams.set("tag", "quicker04-21");
+  return url.toString();
+}
+
 export default function ProductList({
   category,
   searchTerm,
@@ -606,7 +613,7 @@ export default function ProductList({
               {product.image && (
                 <a
                   className="product-card-image-link"
-                  href={product.url}
+                  href={getProductUrl(product)}
                   target="_blank"
                   rel="sponsored noopener noreferrer"
                   aria-label={`View ${product.name} on Amazon`}
@@ -647,7 +654,7 @@ export default function ProductList({
                 )}
                 <a
                   className="product-card-link"
-                  href={product.url}
+                  href={getProductUrl(product)}
                   target="_blank"
                   rel="sponsored noopener noreferrer"
                   aria-label={`View ${product.name} on Amazon`}
@@ -672,7 +679,8 @@ export default function ProductList({
         </p>
       )}
       <p className="product-list-disclosure">
-        As an Amazon Associate I earn from qualifying purchases.
+        Product links open Amazon search results for the item. As an Amazon Associate I
+        earn from qualifying purchases.
       </p>
     </section>
   );

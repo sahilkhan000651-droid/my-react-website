@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { PRODUCTS } from "./ProductList";
+import { getProductUrl, PRODUCTS } from "./ProductList";
 
 const COLLECTIONS = {
   "todays-deals": {
@@ -41,7 +41,7 @@ function StoreProductCard({ product }) {
             })}
           </strong>
         )}
-        <a href={product.url} target="_blank" rel="sponsored noopener noreferrer">
+        <a href={getProductUrl(product)} target="_blank" rel="sponsored noopener noreferrer">
           View product
         </a>
       </div>
