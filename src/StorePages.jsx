@@ -41,7 +41,7 @@ function StoreProductCard({ product }) {
             })}
           </strong>
         )}
-        <a href={getProductUrl(product)} target="_blank" rel="sponsored noopener noreferrer">
+        <a href={getProductUrl(product)} rel="sponsored noopener noreferrer">
           View product
         </a>
       </div>
@@ -63,7 +63,6 @@ export default function StorePages({ page }) {
           <a
             className="store-page-action"
             href="https://www.amazon.in/gp/your-account/order-history"
-            target="_blank"
             rel="noopener noreferrer"
           >
             View Amazon orders

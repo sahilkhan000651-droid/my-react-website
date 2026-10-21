@@ -177,7 +177,6 @@ export default function App() {
                         className="shopping-cart-buy"
                         href={getProductUrl(product)}
                         key={product.id}
-                        target="_blank"
                         rel="sponsored noopener noreferrer"
                       >
                         Buy {product.name} on Amazon

@@ -172,14 +172,6 @@ const ADDITIONAL_PRODUCTS = [
     url: "https://link.amazon/B06UHHmO0",
   },
   {
-    id: "proteins",
-    name: "Proteins",
-    department: "Protein",
-    category: "Protein",
-    image: "https://m.media-amazon.com/images/P/B0H7SHJGYC.01._SCLZZZZZZZ_SX500_.jpg",
-    url: "https://link.amazon/A06B6161K",
-  },
-  {
     id: "muscleblaze-yeast-protein",
     name: "MuscleBlaze Yeast Protein Powder, Rich Chocolate, 1kg",
     department: "Protein",
@@ -448,50 +440,18 @@ const CATALOG_BATCH_PRODUCTS = [
   createAmazonProduct("logitech-k120-keyboard-batch", "Logitech K120 Wired Keyboard for Windows, USB Plug-and-Play, Full-Size, Spill-Resistant, Curved Space Bar, Compatible with PC, Laptop", "Electronics", "https://m.media-amazon.com/images/I/81Y2VnQTuBL._SX450_.jpg", "https://link.amazon/B0glj1dAX", 625),
   createAmazonProduct("oneplus-earbuds-batch", "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D Spatial Audio, AI Translation, 12.4mm Drivers, Dual-Device Connectivity, 47ms Low Latency - Ash Black", "Electronics", "https://m.media-amazon.com/images/I/51nBTTG3hNL._SY355_.jpg", "https://link.amazon/B0ccFycjB", 1799),
   createAmazonProduct("electronics-listing-batch-7", "KAPAVER Hybrid Series Back Cover Case Compatible with iPhone 13 (Clear)", "Electronics", "https://m.media-amazon.com/images/I/716hq+s3raL._SY355_.jpg", "https://link.amazon/A0bs86ST3", 380),
-  createAmazonProduct("samsung-smartphone-batch-8", "Samsung Galaxy M17 5G Mobile (Moonlight Silver, 6GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Super AMOLED Display | Gorilla Glass Victus | 6 Gen OS Upgrades | Knox Security | AI", "Electronics", "https://m.media-amazon.com/images/I/71Xxk9h5++L._SX569_.jpg", "https://link.amazon/B0iKGNUH5", 22999),
-  createAmazonProduct("samsung-smartphone-batch-9", "Samsung Galaxy M17e 5G Mobile (Vibe Violet, 6GB RAM, 128GB Storage, Monster 6000mAh Battery) | 120 Hz Refresh Rate | IP54 Rating | 6 Gen OS Upgrades | 50MP Dual Camera | Knox Security | AI", "Electronics", "https://m.media-amazon.com/images/I/71tjjLg7qmL._SX425_.jpg", "https://link.amazon/B0g0S6ryU", 19499),
-  createAmazonProduct("universal-replacement-remote-batch", "Compatible With Sony Tv Remote Original Bravia LCD LED UHD OLED QLED 4K Ultra HD with YouTube and Netflix Hotkeys. Universal Replacement for Original Sony Smart Android TV Remote Control", "Electronics", "https://m.media-amazon.com/images/I/51zOEBhSFbL._SY355_.jpg", "https://link.amazon/B0cLjyWVM", 251),
-  createAmazonProduct("unidsc-waterproof-bathroom-batch", "UNIDSC Tiles Gap Filler 280g | Tile Grout Repair Paste for Floor & Wall | Crack Resistant, Waterproof & Long Lasting | Easy Apply Nozzle Bottle | For Bathroom, Kitchen & Floor Tile Joints (280g)", "Home & Kitchen", "https://m.media-amazon.com/images/I/61CV26-hV5L._SX342_.jpg", "https://link.amazon/B0aEZHvXC", 269),
-  createAmazonProduct("ub-unity-waterproof-bathroom-batch", "UB Unity Brand Wall Repair Paste Tube Waterproof Crack Filler for Walls & Tiles Gap Filler | White Cement Sealant & Joint Repair Paste | Tile Grout Repair Waterproof for Bathroom & Wall Cracks (180 g)", "Home & Kitchen", "https://m.media-amazon.com/images/I/71ZErgy0xAL._SX342_.jpg", "https://link.amazon/B080fAAHy", 173),
-  createAmazonProduct("orient-electric-led-bulb-batch", "Orient Electric 12W High Glow LED bulb| 180-degree wide beam angle| Voltage surge protection up to 4 kV| 6500K, Cool White| B22d base| Made in India| Pack of 2", "Electronics", "https://m.media-amazon.com/images/I/71tYq86HyZL._SX425_.jpg", "https://link.amazon/B0dtVkyQW", 129),
-  createAmazonProduct("panasonic-bulb-batch", "Panasonic Dura Saver 9W Bulb, B22 LED Bulb Base For Home & Office, 1 Year Warranty, Energy Efficiet, 6500K Cool Daylight (Pack of 4)", "Electronics", "https://m.media-amazon.com/images/I/717-cMUiMpL._SX425_.jpg", "https://link.amazon/B0bQP2JD3", 159),
-  createAmazonProduct("explorer-sling-puck-game-batch", "MiniExplorer 3 in 1 Fastest Finger First Sling Puck Wooden Board Game for Kids & Adults | String Hockey Game | Family Indoor Fun Game | Party & Gift Toy for Boys & Girls", "Toys & Games", "https://m.media-amazon.com/images/I/61gljZCoBuL._SX425_.jpg", "https://link.amazon/B028APYWz", 498),
-  createAmazonProduct("uno-flip-batch", "UNO Kid Mattel Games Uno Flip Side Card Game, Multi Color", "Toys & Games", "https://m.media-amazon.com/images/I/51PZqjk9XTL._SY300_SX300_QL70_FMwebp_.jpg", "https://link.amazon/B0bjcp5Lv", 110),
   createAmazonProduct("toy-imagine-game-batch", "Toy Imagine 54 Pcs Wooden Tumbling Tower Game – Indoor Stacking Puzzle Blocks for Kids, Adults & Families – Fun Balancing Toy for Boys & Girls of All Ages – Party Game & Brain Teaser", "Toys & Games", "https://m.media-amazon.com/images/I/61yEvHHViTL._SY355_.jpg", "https://link.amazon/B0gqdPeUL", 274),
-  createAmazonProduct("amazon-listing-batch-18", "Liberty Mens Anti Spike Jungle Boot Military & Tactical Boot", "Shoes", "https://m.media-amazon.com/images/I/81RGhYSTwFL._SX500_.jpg", "https://link.amazon/B0a0JvzOk", null),
-  createAmazonProduct("skechers-modern-cool-shoes-batch", "Skechers Men Modern Cool Sneakers", "Shoes", "https://m.media-amazon.com/images/I/81HvpC0gQJL._SY500_.jpg", "https://link.amazon/B06l7zdRb", null),
-  createAmazonProduct("amazon-listing-batch-20", "ASIAN Men's INNOVA-04 Sports Running,Walking & Gym Shoes with Max Cushion Technology Casual Sneaker Shoes for Men's & Boy's", "Shoes", "https://m.media-amazon.com/images/I/71OAhJVxCPL._SY500_.jpg", "https://link.amazon/A0dhys8CH", null),
-  createAmazonProduct("amazon-listing-batch-21", "ASIAN Men's INNOVA-04 Sports Running,Walking & Gym Shoes with Max Cushion Technology Casual Sneaker Shoes for Men's & Boy's", "Shoes", "https://m.media-amazon.com/images/I/718Z90mODOL._SY500_.jpg", "https://link.amazon/B0hBD892j", null),
   createAmazonProduct("asian-blade-13-shoes-batch", "ASIAN Civic-01 Men’s Sports Running Shoes | Lightweight Sneakers with Breathable Mesh Upper, Shock-Absorbing Cushion Midsole & Non-Slip Outsole for Running, Walking & Gym", "Shoes", "https://m.media-amazon.com/images/I/51kmnOhAyvL._SY500_.jpg", "https://link.amazon/B0crJWlbn", null),
   createAmazonProduct("asian-future-01-shoes-batch", "ASIAN Men Lace Up Running Shoes", "Shoes", "https://m.media-amazon.com/images/I/61YUuCn4u+L._SY500_.jpg", "https://link.amazon/B0fZrtqPr", null),
-  createAmazonProduct("bruton-lite-sport-shoes-batch", "BRUTON Men's Adjustable Toe Ring Wedge Sandals | Buckle Strap Cushioned Wedge Footwear | Lightweight & Stylish Casual Slip-On Sandals, Travel & Outdoor Use", "Shoes", "https://m.media-amazon.com/images/I/71f3BmjCwtL._SY500_.jpg", "https://link.amazon/B0dMlInW4", null),
-  createAmazonProduct("athco-oxyflo-running-shoes-batch", "ATHCO Mens Oxyflo Walking Shoes for Man, Lightweight Breathable Comfort Slip-On Casual Shoes for Man with Memory Foam Insole, Lightweight, Comfort Walking Shoe for Men for All-Day Comfort", "Shoes", "https://m.media-amazon.com/images/I/81G4sEB0FuL._SY500_.jpg", "https://link.amazon/B0hOJCmC9", null),
   createAmazonProduct("clymb-running-shoes-batch", "CLYMB Casual Running/Walking/Sport Shoes for Men's/Boys", "Shoes", "https://m.media-amazon.com/images/I/617OCUpPyaL._SY500_.jpg", "https://link.amazon/B05cMdIXW", null),
-  createAmazonProduct("amazon-shoes-listing-batch-27", "Centrino Casual Sneakers for Men | Shoes for Man Stylish | Lightweight Lace-Up Canvas Shoes with Cushioned Insole | Breathable Comfortable Walking Shoes | Anti-Skid Sole | Mens Shoes for Office Outings (6832)", "Shoes", "https://m.media-amazon.com/images/I/61GkAeNhpKL._SY500_.jpg", "https://link.amazon/B06omapq9", null),
   createAmazonProduct("amazon-shoes-listing-batch-28", "Campus Men's Force Running Shoes", "Shoes", "https://m.media-amazon.com/images/I/619qmAIHfGL._SY500_.jpg", "https://link.amazon/B0chpXx9s", null),
-  createAmazonProduct("swagr-cotton-socks-batch", "SWAGR 12 Pairs Solid Cotton Ankle Socks for Men Women | Quick Moisture Wicking Tech | Pack of 12 | Multicolor | SOXCO Style Code SWG24", "Fashion", "https://m.media-amazon.com/images/I/915F4Q3fpvL._SY550_.jpg", "https://link.amazon/B0aEO1EER", null),
-  createAmazonProduct("amazon-fashion-listing-batch-30", "HEELIUM Bamboo Socks for Men | Quarter Length | Odour-Free & Breathable | Padded Base & Anti-bacterial | 3X Softer than Cotton Socks", "Fashion", "https://m.media-amazon.com/images/I/711nYeu7omL._SX522_.jpg", "https://link.amazon/B0avfzVlE", null),
-  createAmazonProduct("amazon-apparel-listing-batch-31", "Belkin 65W (45W+20W) USB -C GaN Charger | Fast Charging PD | Gan Technology for Samsung Galaxy S25, Apple iPhone 17, Air, Pro, Pro Max, iPad, MacBook & More | 2 Years Warranty | White", "Electronics", "https://m.media-amazon.com/images/I/31YCgDDzynL._SX355_.jpg", "https://link.amazon/B00Q2A0uU", 2849),
-  createAmazonProduct("apple-usb-c-adapter-batch", "Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods), White", "Electronics", "https://m.media-amazon.com/images/I/41aAXonVlQL._SY355_.jpg", "https://link.amazon/B0aRtSj1L", 1599),
   createAmazonProduct("amazon-electronics-listing-batch-33", "Original iPhone Charger 20W PD Type C", "Electronics", "https://m.media-amazon.com/images/I/617QjU2JHeL._SY355_.jpg", "https://link.amazon/A03esoTQ9", 339),
   createAmazonProduct("eddiktion-universal-charger-batch", "165W Super Fast Car Charger | Dual Port USB A 120W and USB C 45W PD Fast Charging Adapter | Universal 12V-24V Fast Car Charger for All Type of Mobile, Smartphone,Watch,Tablet,mac (Black)", "Electronics", "https://m.media-amazon.com/images/I/71fUUJEiLBL._SY355_.jpg", "https://link.amazon/B09IXaKhu", 599),
   createAmazonProduct("wayona-charging-cable-batch", "Wayona 100W USB C to USB C Cable 1.5M, Type C Fast Charging Cable Compatible with iPhone 16/16 Plus/16 Pro/16 Pro Max,15 Series, Galaxy S25 Ultra,S24/S23/S22, Car Play, MacBook, i Pad, Pixel-Grey", "Electronics", "https://m.media-amazon.com/images/I/71DDDblJgFL._SX342_.jpg", "https://link.amazon/B0eSk9r21", 350),
-  createAmazonProduct("beetel-power-bank-batch", "Beetel Volte Series PB20 20000mAh Power Bank 22.5W Fast Charging | Triple", "Electronics", "https://m.media-amazon.com/images/I/51btJkOBKKL._SX425_.jpg", "https://link.amazon/B04GdKSuM", 890),
-  createAmazonProduct("playstation-dualsense-controller-batch", "Sony DualSense Wireless Controller Black (PlayStation 5)", "Electronics", "https://m.media-amazon.com/images/I/61cOKvrU7NL._SX522_.jpg", "https://link.amazon/B00RlVKoa", 6990),
-  createAmazonProduct("rockstar-games-product-batch", "Rockstar Games PS5 Video Game ConsoleGrand Theft Auto V", "Toys & Games", "https://m.media-amazon.com/images/I/81kAitW5qAL._SX342_.jpg", "https://link.amazon/B04rKkmPL", 2179),
-  createAmazonProduct("amazon-product-listing-batch-39", "Borosil 900ml Go Sports Green Stainless Steel Bottle | ISI Certified Made in India Double Wall Vacuum Insulated Flask | 14 Hours Hot & 18 Hours Cold | Leakproof, BPA Free | 1 Year Warranty", "Home & Kitchen", "https://m.media-amazon.com/images/I/412OvSNSpGL._SX425_.jpg", "https://link.amazon/B036qOEKc", 948),
-  createAmazonProduct("reusable-airtight-container-batch", "CELLO H2O Premium Edition Water Bottles Set of 3, 1000ml Each | Airtight & Leakproof Lid |BPA-Free, Food Grade Bottle For Kitchen |Reusable Set of Fridge Bottles for Home, Office, Gym, Gifting", "Home & Kitchen", "https://m.media-amazon.com/images/I/61Bp1ySeyUL._SX425_.jpg", "https://link.amazon/B04vAqurC", 370),
   createAmazonProduct("cello-unbreakable-glass-batch", "CELLO H2O Water Bottles Set of 3 Pcs For Daily Use, 1000ml Each Multicolor | Stylish & Unbreakable BPA-Free Leakproof Refrigerator Safe Pet Water Bottle For School, Office, Kitchen & Travel", "Home & Kitchen", "https://m.media-amazon.com/images/I/61+nyAaYETL._SX425_.jpg", "https://link.amazon/B03TUbaSO", 399),
   createAmazonProduct("cello-transparent-bottle-batch", "CELLO H2O Glass Water Bottle for Office & Daily Use 920 ml, Transparent | Durable & Stylish, Freezable & Fridge Safe, Leakproof Wide Mouth Leadfree Toughened Glass Water Bottle For Kitchen & Travel", "Home & Kitchen", "https://m.media-amazon.com/images/I/6193kFOYj+L._SX425_.jpg", "https://link.amazon/B0fBE9btt", 134),
   createAmazonProduct("solimo-stainless-steel-bottle-batch", "Amazon Brand - Solimo Stainless Steel Water Bottle, Set of 3, 1 L Each (Blitz)", "Home & Kitchen", "https://m.media-amazon.com/images/I/81mrMggUQnS._SX425_.jpg", "https://link.amazon/B0023ebKO", 519),
   createAmazonProduct("clazkit-stainless-steel-bottle-batch", "Clazkit Stainless Steel Water Bottle, 500 ml - Single-Walled, Spill-Proof, Food Grade Steel | Fridge, Office, School, Travel, Gym, Car (Silver)", "Home & Kitchen", "https://m.media-amazon.com/images/I/71GYvX5VzlL._SX425_.jpg", "https://link.amazon/B00BYrX2I", 143),
-  createAmazonProduct("amazon-home-listing-batch-46", "Carlington Analog Watches for Men with Leather Strap - CT 1020", "Fashion", "https://m.media-amazon.com/images/I/71qKmtpXu-L._SX522_.jpg", "https://link.amazon/B0aU6TRSz", null),
-  createAmazonProduct("amazon-home-listing-batch-47", "Carlington Analog Watches for Men with Leather Strap - CT 1020", "Fashion", "https://m.media-amazon.com/images/I/812vmhAvRRL._SX522_.jpg", "https://link.amazon/B0dMtJiCX", null),
-  createAmazonProduct("amazon-watch-listing-batch", "Boldfit Gym Gloves for Men with Wrist Support Accessories, Gym Mittens for Women for Weightlifting, for Gym Workout for Training, Exercise, Cycling, Bike Sports - Warrior - Medium", "Protein", "https://m.media-amazon.com/images/I/71eEXGy-IwL._SX425_.jpg", "https://link.amazon/B0eywFDP5", 330.6),
-  createAmazonProduct("cult-training-accessory-batch", "CULT Fitness Training Gloves for Men & Women – Premium Grip Unisex Workout Gloves with Breathable Lycra & Half-Finger Design – Durable, Anti-Slip, Sweat-Absorbent Gym Gloves - Black | Medium", "Protein", "https://m.media-amazon.com/images/I/61dVs6vGixL._SX425_.jpg", "https://link.amazon/B0hMEcY3B", 275),
-  createAmazonProduct("charcoal-underarm-skincare-batch", "Phitku Crystal Roll On with Charcoal Extract | Natural Alum | Brightens Dark Underarms, Controls Body Odour | Fragrance-Free & Alcohol Free | Men & Women | 100g", "Beauty", "https://m.media-amazon.com/images/I/61ESu8l50tL._SY355_.jpg", "https://link.amazon/A0dhqTONd", 699),
-  createAmazonProduct("boldfit-quick-dry-towel-batch-1", "Boldfit Microfiber Gym Towel for Men & Women Ultra Soft for Face Thin Quick Drying Lightweight Towel for Gym, Spa, Swimming, Sweat Absorbent for Men & Women Ultra Super Soft Lightweight Quick Drying", "Beauty", "https://m.media-amazon.com/images/I/718MeN2tDCL._SX425_.jpg", "https://link.amazon/B01ysizPf", 299),
-  createAmazonProduct("boldfit-quick-dry-towel-batch-2", "Boldfit Microfiber Gym Towel for Men & Women Ultra Soft for Face Thin Quick Drying Lightweight Towel for Gym, Spa, Swimming, Sweat Absorbent for Men & Women Ultra Super Soft Lightweight Quick Drying", "Beauty", "https://m.media-amazon.com/images/I/61fT+ha-NQL._SX425_.jpg", "https://link.amazon/B00thxDMf", 299),
   createAmazonProduct("boldfit-quick-dry-towel-batch-3", "Boldfit Quick-Dry Absorbent Towel Variant", "Home & Kitchen", null, "https://link.amazon/B0eDYuFYr", null),
   createAmazonProduct("boldfit-quick-dry-towel-batch-4", "Boldfit Quick-Dry Absorbent Towel Variant", "Home & Kitchen", null, "https://link.amazon/B0es5ATH7", null),
   createAmazonProduct("amazon-kitchen-listing-batch", "Meta Ray-Ban (Gen 3) Wayfarer, Shiny Black, Polarised Green Lenses, AI Glasses with Camera for Men, Women", "Electronics", "https://m.media-amazon.com/images/I/51+r67wAViL._SY355_.jpg", "https://link.amazon/A0j3OIBaf", 46500),
@@ -538,6 +498,8 @@ const CATALOG_BATCH_PRODUCTS = [
 export const PRODUCTS = [PRODUCT, ...ADDITIONAL_PRODUCTS, ...CATALOG_BATCH_PRODUCTS];
 
 export function getProductUrl(product) {
+  if (product.url) return product.url;
+
   const url = new URL("https://www.amazon.in/s");
   url.searchParams.set("k", product.name);
   url.searchParams.set("tag", "quicker04-21");
@@ -614,7 +576,6 @@ export default function ProductList({
                 <a
                   className="product-card-image-link"
                   href={getProductUrl(product)}
-                  target="_blank"
                   rel="sponsored noopener noreferrer"
                   aria-label={`View ${product.name} on Amazon`}
                 >
@@ -655,7 +616,6 @@ export default function ProductList({
                 <a
                   className="product-card-link"
                   href={getProductUrl(product)}
-                  target="_blank"
                   rel="sponsored noopener noreferrer"
                   aria-label={`View ${product.name} on Amazon`}
                 >
@@ -679,7 +639,7 @@ export default function ProductList({
         </p>
       )}
       <p className="product-list-disclosure">
-        Product links open Amazon search results for the item. As an Amazon Associate I
+        Product links open the corresponding Amazon product page. As an Amazon Associate I
         earn from qualifying purchases.
       </p>
     </section>
